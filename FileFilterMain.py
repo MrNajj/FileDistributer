@@ -26,11 +26,11 @@ inp = ''
 while inp is not None:
     inp = easygui.buttonbox("Where do you want your file to go", "File Distribute", choice_list)
     if inp == "Downloads":
-        print("Downloads")
+        print("Downloads") # change to actall method to move file
         inp = None
-    if inp == "Documents":
-        print("Documents")
+    if inp == "Documents": 
+        print("Documents") # change to actall method to move file
         inp = None
-    elif inp == "off":
+    elif inp == "off": # Do nothing and just quit
         print("None")
         inp = None
